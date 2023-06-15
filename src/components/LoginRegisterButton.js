@@ -16,7 +16,7 @@ const LoginRegisterButton = () => {
         borderWidth: 2,
         borderColor: '#FFFFFF',
         elevation: 3,
-        marginBottom: 110,
+        marginBottom: 100,
       }}>
       <TouchableOpacity
         style={{

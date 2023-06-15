@@ -48,7 +48,7 @@ const SignIn = () => {
       <TouchableOpacity
         style={{marginTop: 20, marginLeft: 25,}}
         onPress={() => navigation.navigate('LupaPassword')}>
-        <Text style={{textAlign: 'left', fontWeight: 'bold', color: '#000000'}}>
+        <Text style={{textAlign: 'left', fontWeight: 'bold', color: '#03a9f4'}}>
           Lupa Password?
         </Text>
       </TouchableOpacity>
