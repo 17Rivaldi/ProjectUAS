@@ -37,7 +37,7 @@ const Home = () => {
     },
   ]);
 
-  const [history, setHistory] = useState([
+  const [populer, setPopuler] = useState([
     {
       name: 'Pembayaran Membership Gym',
       description: 'Pembayaran gym s ren',
@@ -181,13 +181,11 @@ const Home = () => {
             <Icon name="chevron-forward" size={20} color="#FFFFFF" />
           </TouchableOpacity>
         </View>
-        
-
-        
+          
         {/* Test */}
         <View style={{marginTop: 15, flex: 1}}>
           <FlatList
-            data={history}
+            data={populer}
             renderItem={({item}) => (
               <TouchableOpacity
                 style={{
