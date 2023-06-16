@@ -52,6 +52,16 @@ const Profile = () => {
               <Text style={{fontWeight: 'bold', color: '#000000'}}>rivaldi191@gmail.com</Text>
             </View>
           </View>
+
+          <TouchableOpacity style={{flexDirection: 'row', alignItems: 'center', justifyContent: 'center', marginTop: 20}}
+            onPress={() => navigation.navigate('SignIn')}>
+            <View style={{justifyContent: 'center', alignItems: 'center', width: 40, height: 40}}>
+             <Icon name="sign-out-alt" size={25} color="#212121" style={{transform: [{scaleX: -1}]}}/>
+            </View>
+            <View style={{justifyContent: 'center', marginLeft: 10, flex: 1}}>
+              <Text style={{fontWeight: 'bold', color: '#000000'}}>Log Out</Text>
+            </View>
+          </TouchableOpacity>
         </View>
       </View>
       </View>

@@ -8,6 +8,8 @@ import LupaPassword from './src/screens/LupaPassword';
 import Home from './src/screens/Home';
 import Profile from './src/screens/Profile';
 import Bookmark from './src/screens/Bookmark';
+import News1 from './src/components/Detail/News1';
+import News2 from './src/components/Detail/News2';
 
 const Stack = createNativeStackNavigator();
 
@@ -24,6 +26,8 @@ const App = () => {
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Profile" component={Profile} />
         <Stack.Screen name="Bookmark" component={Bookmark} />
+        <Stack.Screen name="News1" component={News1} />
+        <Stack.Screen name="News2" component={News2} />
       </Stack.Navigator>
     </NavigationContainer>
   );

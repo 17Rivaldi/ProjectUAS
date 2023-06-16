@@ -64,7 +64,7 @@ const SignIn = () => {
           borderRadius: 9,
           elevation: 2,
         }}
-        onPress={() => navigation.navigate('Home')}/* Tambah */>
+        onPress={() => navigation.navigate('Home')}>
         <Text style={{color: '#FFFFFF', fontSize: 18, fontWeight: 'bold'}}>
           Sign In
         </Text>

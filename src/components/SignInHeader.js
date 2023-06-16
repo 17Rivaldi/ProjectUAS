@@ -8,7 +8,7 @@ const SignInHeader = props => {
         style={{
           fontSize: 28,
           fontWeight: 'bold',
-          color: '#4285F4',
+          color: '#03a9f4',
           textAlign: 'center',
         }}>
         {props.title}
