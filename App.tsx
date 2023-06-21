@@ -8,8 +8,10 @@ import LupaPassword from './src/screens/LupaPassword';
 import Home from './src/screens/Home';
 import Profile from './src/screens/Profile';
 import Bookmark from './src/screens/Bookmark';
-import News1 from './src/components/Detail/News1';
-import News2 from './src/components/Detail/News2';
+import Trend1 from './src/components/Detail/Trend1';
+import Trend2 from './src/components/Detail/Trend2';
+import Trend3 from './src/components/Detail/Trend3';
+import Trend4 from './src/components/Detail/Trend4';
 
 const Stack = createNativeStackNavigator();
 
@@ -26,8 +28,10 @@ const App = () => {
         <Stack.Screen name="Home" component={Home} />
         <Stack.Screen name="Profile" component={Profile} />
         <Stack.Screen name="Bookmark" component={Bookmark} />
-        <Stack.Screen name="News1" component={News1} />
-        <Stack.Screen name="News2" component={News2} />
+        <Stack.Screen name="Trend1" component={Trend1} />
+        <Stack.Screen name="Trend2" component={Trend2} />
+        <Stack.Screen name="Trend3" component={Trend3} />
+        <Stack.Screen name="Trend4" component={Trend4} />
       </Stack.Navigator>
     </NavigationContainer>
   );
