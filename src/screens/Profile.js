@@ -54,6 +54,16 @@ const Profile = () => {
           </View>
 
           <TouchableOpacity style={{flexDirection: 'row', alignItems: 'center', justifyContent: 'center', marginTop: 20}}
+            onPress={() => navigation.navigate('AboutMe')}>
+            <View style={{justifyContent: 'center', alignItems: 'center', width: 40, height: 40}}>
+             <Icon name="settings-outline" size={30} color="#212121" style={{transform: [{scaleX: -1}]}}/>
+            </View>
+            <View style={{justifyContent: 'center', marginLeft: 10, flex: 1}}>
+              <Text style={{fontWeight: 'bold', color: '#000000'}}>About Me</Text>
+            </View>
+          </TouchableOpacity>
+
+          <TouchableOpacity style={{flexDirection: 'row', alignItems: 'center', justifyContent: 'center', marginTop: 20}}
             onPress={() => navigation.navigate('SignIn')}>
             <View style={{justifyContent: 'center', alignItems: 'center', width: 40, height: 40}}>
              <Icon name="log-out-outline" size={30} color="#212121" style={{transform: [{scaleX: -1}]}}/>

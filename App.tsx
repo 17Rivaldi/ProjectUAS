@@ -9,9 +9,7 @@ import Home from './src/screens/Home';
 import Profile from './src/screens/Profile';
 import Bookmark from './src/screens/Bookmark';
 import Trend1 from './src/components/Detail/Trend1';
-import Trend2 from './src/components/Detail/Trend2';
-import Trend3 from './src/components/Detail/Trend3';
-import Trend4 from './src/components/Detail/Trend4';
+import AboutMe from './src/components/AboutMe';
 
 const Stack = createNativeStackNavigator();
 
@@ -29,9 +27,7 @@ const App = () => {
         <Stack.Screen name="Profile" component={Profile} />
         <Stack.Screen name="Bookmark" component={Bookmark} />
         <Stack.Screen name="Trend1" component={Trend1} />
-        <Stack.Screen name="Trend2" component={Trend2} />
-        <Stack.Screen name="Trend3" component={Trend3} />
-        <Stack.Screen name="Trend4" component={Trend4} />
+        <Stack.Screen name="AboutMe" component={AboutMe} />
       </Stack.Navigator>
     </NavigationContainer>
   );

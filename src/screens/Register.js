@@ -30,7 +30,8 @@ const Register = () => {
           elevation: 2,
           paddingLeft: 10,
           borderColor: '#03a9f4',
-          borderWidth: 1
+          borderWidth: 1,
+          color: '#000000'
         }}
         placeholder="Masukkan Email Anda"
         placeholderTextColor= 'gray'
@@ -46,7 +47,8 @@ const Register = () => {
           elevation: 2,
           paddingLeft: 10,
           borderColor: '#03a9f4',
-          borderWidth: 1
+          borderWidth: 1,
+          color: '#000000'
         }}
         placeholder="Masukkan Password Anda"
         placeholderTextColor= 'gray'
@@ -63,7 +65,8 @@ const Register = () => {
           elevation: 2,
           paddingLeft: 10,
           borderColor: '#03a9f4',
-          borderWidth: 1
+          borderWidth: 1,
+          color: '#000000'
         }}
         placeholder="Masukkan Ulang Password Anda"
         placeholderTextColor= 'gray'

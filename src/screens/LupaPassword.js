@@ -30,7 +30,8 @@ const LupaPassword = () => {
           elevation: 2,
           paddingLeft: 10,
           borderColor: '#03a9f4',
-          borderWidth: 1
+          borderWidth: 1,
+          color: '#000000'
         }}
         placeholder="Masukkan Email Anda"
         placeholderTextColor= 'gray'
